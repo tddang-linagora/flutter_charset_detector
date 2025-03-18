@@ -62,14 +62,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "3.0.0"
-  flutter_charset_detector_darwin:
-    dependency: "direct main"
-    description:
-      name: flutter_charset_detector_darwin
-      sha256: daac20390275efb92fbb14350fe11286c5e29c7b80d6b0867f52d760f0d69763
-      url: "https://pub.dev"
-    source: hosted
-    version: "1.1.0"
   flutter_charset_detector_platform_interface:
     dependency: "direct main"
     description:

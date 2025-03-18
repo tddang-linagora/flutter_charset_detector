@@ -13,7 +13,8 @@ dependencies:
   flutter_charset_detector_android: ^3.0.0
   # flutter_charset_detector_android:
   #   path: ../flutter_charset_detector_android
-  flutter_charset_detector_darwin: ^1.1.0
+  # Wait for migration status to complete https://gitlab.freedesktop.org/uchardet/uchardet.git
+  # flutter_charset_detector_darwin: ^1.1.0
   # flutter_charset_detector_darwin:
   #   path: ../flutter_charset_detector_darwin
   flutter_charset_detector_web: ^2.0.0
@@ -34,8 +35,8 @@ flutter:
     platforms:
       android:
         default_package: flutter_charset_detector_android
-      ios:
-        default_package: flutter_charset_detector_darwin
+#      ios:
+#        default_package: flutter_charset_detector_darwin
       macos:
         default_package: flutter_charset_detector_darwin
       web:
