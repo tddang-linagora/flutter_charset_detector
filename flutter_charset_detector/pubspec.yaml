@@ -37,8 +37,8 @@ flutter:
         default_package: flutter_charset_detector_android
 #      ios:
 #        default_package: flutter_charset_detector_darwin
-      macos:
-        default_package: flutter_charset_detector_darwin
+#      macos:
+#        default_package: flutter_charset_detector_darwin
       web:
         default_package: flutter_charset_detector_web
 
